@@ -54,8 +54,8 @@ export default function ListNews({ navigation }) {
          const isOffline = await checkNetworkState();
         if (!isOffline) {
             Alert.alert(
-                "Información",
-                "No tiene acceso a internet para ver este contenido.",
+                "Information",
+                "You don't have internet access",
                 [
                   { text: "OK" }
                 ]
