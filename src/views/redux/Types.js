@@ -1,0 +1,5 @@
+export const FETCH_NEWS = 'FETCH_NEWS';
+export const REMOVE_UNIT_NEWS = 'REMOVE_UNIT_NEWS';
+export const REFRESH_NEWS = "REFRESH_NEWS";
+export const NEWS_SELECTED = "NEWS_SELECTED";
+export const TRASH_NUMBER = "TRASH_NUMBER";
